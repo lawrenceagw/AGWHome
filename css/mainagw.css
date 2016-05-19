@@ -1,0 +1,95 @@
+body {
+  padding-top: 90px;
+}
+.starter-template {
+  padding: 40px 15px;
+/*  text-align: center;*/
+}
+
+html, body {
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    letter-spacing: -1px;
+    background-image: url("../img/subtle-polygon-light-patterns.png");
+	background-color: white;
+	font-style: normal;
+    text-shadow: 1px 1px 1px #8C8B8B;
+	color: black;
+}
+
+/*HEADER*/
+.navbar-inverse {
+    background-color: #482f92;
+}
+#logo {
+/*	width="233";*/
+	background-color: white;
+/*    padding-top: 8px;*/
+/*    padding-bottom: 3px;*/
+/*    float:left;*/
+}
+#navbar{
+    padding-top:30px;
+}
+.active a{
+    background-color: transparent!important;
+}
+.nav li{
+    margin: 0 5px;
+}
+.nav li a{
+    text-shadow: none;
+}
+
+/*MAIN*/
+h1 {
+    color: #8C8B8B;
+    font-size: 300%;
+    letter-spacing: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #2C1D59;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+}
+#home section, #about section, #contact section {
+    margin: 8px 0 0 0;
+    padding: 20px 0 20px 0;
+}
+
+#solutions section {
+    margin: 10px 0 0 0;
+    padding: 0px 0 20px 0;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #482f92;
+/*	overflow: hidden;*/
+/*    margin-bottom: 0px;*/
+    margin-top: 40px;
+    text-shadow: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer div[class^="icono-"] {
+/*    float: left;*/
+/*    margin: 0 3px;*/
+}
+
+footer p {
+/*    float: left;*/
+/*    margin: 0 3px;*/
+    font-size: small;
+    color: white;
+}
